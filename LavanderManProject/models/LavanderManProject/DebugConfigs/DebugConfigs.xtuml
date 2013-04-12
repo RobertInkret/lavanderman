@@ -1,0 +1,46 @@
+-- BP 7.1 content: Package syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO EP_PKG
+	VALUES ("5328c504-8a95-47d1-8cfa-0e5b9dfa6a13",
+	"d8f0dbb5-9fc8-4f5c-8bad-8c61f891e8a0",
+	"d8f0dbb5-9fc8-4f5c-8bad-8c61f891e8a0",
+	'DebugConfigs',
+	'',
+	0);
+INSERT INTO GD_MD
+	VALUES ("ab852a57-ca7d-4ca1-80c3-67a5c06141a6",
+	112,
+	"5328c504-8a95-47d1-8cfa-0e5b9dfa6a13",
+	108,
+	0,
+	0,
+	1,
+	1,
+	1,
+	12,
+	1,
+	0,
+	0,
+	0,
+	0,
+	0,
+	'',
+	'LavanderManProject::DebugConfigs');
+INSERT INTO DIM_DIA
+	VALUES ("ab852a57-ca7d-4ca1-80c3-67a5c06141a6",
+	'',
+	1.000000,
+	4000.000000,
+	3000.000000,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO PE_PE
+	VALUES ("5328c504-8a95-47d1-8cfa-0e5b9dfa6a13",
+	1,
+	"00000000-0000-0000-0000-000000000000",
+	"00000000-0000-0000-0000-000000000000",
+	7);
+INSERT INTO S_SYS_PROXY
+	VALUES ("d8f0dbb5-9fc8-4f5c-8bad-8c61f891e8a0",
+	'LavanderManProject',
+	1,
+	'../LavanderManProject.xtuml');
